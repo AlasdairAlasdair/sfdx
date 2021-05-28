@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <description>Department in which the employee works</description>
+    <externalId>false</externalId>
+    <label>Department</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General &amp; Admin</fullName>
+                <default>false</default>
+                <label>General &amp; Admin</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Research &amp; Development</fullName>
+                <default>false</default>
+                <label>Research &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Packaging &amp; Labeling</fullName>
+                <default>false</default>
+                <label>Packaging &amp; Labeling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

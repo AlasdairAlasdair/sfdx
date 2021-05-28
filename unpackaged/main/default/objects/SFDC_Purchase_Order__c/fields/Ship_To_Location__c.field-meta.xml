@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ship_To_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Ship-To Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate - San Francisco</fullName>
+                <default>false</default>
+                <label>Corporate - San Francisco</label>
+            </value>
+            <value>
+                <fullName>New York Office</fullName>
+                <default>false</default>
+                <label>New York Office</label>
+            </value>
+            <value>
+                <fullName>Chicago Office</fullName>
+                <default>false</default>
+                <label>Chicago Office</label>
+            </value>
+            <value>
+                <fullName>Denver Office</fullName>
+                <default>false</default>
+                <label>Denver Office</label>
+            </value>
+            <value>
+                <fullName>Seattle Office</fullName>
+                <default>false</default>
+                <label>Seattle Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

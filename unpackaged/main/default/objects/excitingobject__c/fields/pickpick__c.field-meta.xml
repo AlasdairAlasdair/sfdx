@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pickpick__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <defaultValue>("thing")</defaultValue>
+    <description>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargh</description>
+    <externalId>false</externalId>
+    <inlineHelpText>hello hello hello hello hello hello hello hello hello hello hello helloa</inlineHelpText>
+    <label>pickglobal1</label>
+    <required>true</required>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>hello</valueSetName>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

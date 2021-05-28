@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpenPOs</fullName>
+    <columns>NAME</columns>
+    <columns>Department__c</columns>
+    <columns>Item_Requested__c</columns>
+    <columns>Quanitity__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>3 - Approved,X - Rejected</value>
+    </filters>
+    <label>Open PO's</label>
+</ListView>

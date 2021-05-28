@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>alivalid</fullName>
+    <active>true</active>
+    <description>hello</description>
+    <errorConditionFormula>CreatedDate =  CreatedDate</errorConditionFormula>
+    <errorMessage>WOOPS</errorMessage>
+</ValidationRule>

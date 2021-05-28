@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewPOs_d_2</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>PO_Amount__c</columns>
+    <columns>Status__c</columns>
+    <columns>PO_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <label>New PO's</label>
+</ListView>

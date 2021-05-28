@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Item__c</fullName>
+    <description>To be used if the Item is not found and you want the buyer to research items</description>
+    <externalId>false</externalId>
+    <label>New Item Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

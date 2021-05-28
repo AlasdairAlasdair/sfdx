@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Or does this contribute to the length? --></help>
+        <label><!-- loooooooooooooooooooooooooooongname0 --></label>
+        <name>loooooooooooooooooooooooooooongname0__c</name>
+    </CustomFieldTranslation>

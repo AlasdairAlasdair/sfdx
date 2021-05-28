@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- picky --></label>
+        <name>picky__c</name>
+        <picklistValues>
+            <masterLabel>one</masterLabel>
+            <translation><!-- one --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two</masterLabel>
+            <translation><!-- two --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>General &amp; Admin</masterLabel>
+            <translation><!-- General &amp; Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packaging &amp; Labeling</masterLabel>
+            <translation><!-- Packaging &amp; Labeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research &amp; Development</masterLabel>
+            <translation><!-- Research &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApprovedRDRequisitions</fullName>
+    <columns>NAME</columns>
+    <columns>Item_Requested__c</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Receive_by_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>3 - Approved</value>
+    </filters>
+    <filters>
+        <field>Department__c</field>
+        <operation>equals</operation>
+        <value>Research &amp; Development</value>
+    </filters>
+    <label>Approved R&amp;D Requisitions</label>
+</ListView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>excitingobject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>excitingobjects</value>
+    </caseValues>
+    
+    
+    
+    <fieldSets>
+        <label><!-- aaaaaa --></label>
+        <name>aaaaaa</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- it broke --></errorMessage>
+        <name>somethingvalidatey</name>
+    </validationRules>
+</CustomObjectTranslation>
